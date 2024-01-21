@@ -1,0 +1,32 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+    color:darkmagenta;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color:rgb(255, 6, 189);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(24, 8, 111);
+}
+
+ul {
+    text-align:left;
+    line-height: 150%;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 60%;
+}
+
+figure{
+    text-align: center;
+}
