@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <h1>Sean Kiser's Sensational Kangaroo || ITIS 3135</h1>
+        <nav>
+            <a href="./">Home</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">HTML Tables</a>
+        </nav>
+    </header>
+    <Main>
+        <h2>HTML Tables</h2>
+        <h3>My Sensational Data</h3>
+        <ol>
+            <li>Sean Kiser skiser18@uncc.edu 50000</li>
+            <li>Jimmy Nicks jnicks3@gmail.com 109000</li>
+            <li>Tonya Jenkins tonyaj@yahoo.com 76000</li>
+            <li>Amy Smith asmith28@gmail.com 89000</li>
+            <li>Susie Cameron susiec@yahoo.com 60000</li>
+            <li>Kris Turner krist28@gmail.com 70000</li>
+            <li>Sam Smith ssmith12@gmail.com 45000</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>Sean Kiser</td>
+                <td>skiser18@uncc.edu</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>Jimmy Nicks</td>
+                <td>jnicks3@gmail.com</td>
+                <td>109000</td>
+            </tr>
+            <tr>
+                <td>Tonya Jenkins</td>
+                <td>tonyaj@yahoo.com</td>
+                <td>76000</td>
+            </tr>
+            <tr>
+                <td>Amy Smith</td>
+                <td>asmith28@gmail.com</td>
+                <td>89000</td>
+            </tr>
+            <tr>
+                <td>Susie Cameron</td>
+                <td>susiec@yahoo.com</td>
+                <td>60000</td>
+            </tr>
+            <tr>
+                <td>Kris Turner</td>
+                <td>krist28@gmail.com</td>
+                <td>70000</td>
+            </tr>
+            <tr>
+                <td>Sam Smith</td>
+                <td>ssmith12@gmail.com</td>
+                <td>45000</td>
+            </tr>
+        </table>
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <figcaption>Employee Information</figcaption>
+            <table>
+                <tr>
+                    <th class="top">Category</th>
+                    <th class="top">Name</th>
+                    <th class="top">Email</th>
+                    <th class="top">Salary</th>
+                    <th class="top">Monthly Salary</th>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="base">Bosses</td>
+                    <td>Sean Kiser</td>
+                    <td>skiser18@uncc.edu</td>
+                    <td>50000</td>
+                    <td>4166</td>
+                </tr>
+                <tr>
+                    <td>Jimmy Nicks</td>
+                    <td>jnicks3@gmail.com</td>
+                    <td>109000</td>
+                    <td>9083</td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="base">Seniors</td>
+                    <td>Tonya Jenkins</td>
+                    <td>tonyaj@yahoo.com</td>
+                    <td>76000</td>
+                    <td>6333</td>
+                </tr>
+                <tr>
+                    <td>Amy Smith</td>
+                    <td>asmith28@gmail.com</td>
+                    <td>89000</td>
+                    <td>7416</td>
+                </tr>
+                <tr>
+                    <td>Susie Cameron</td>
+                    <td>susiec@yahoo.com</td>
+                    <td>60000</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="base">Interns</td>
+                    <td>Kris Turner</td>
+                    <td>krist28@gmail.com</td>
+                    <td>70000</td>
+                    <td>5833</td>
+                </tr>
+                <tr>
+                    <td>Sam Smith</td>
+                    <td>ssmith12@gmail.com</td>
+                    <td>45000</td>
+                    <td>3750</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>499000</td>
+                    <td>41581</td>
+                </tr>
+            </table>
+        </figure>
+    </Main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/skiser18/">Charlotte.edu</a>
+            ||
+            <a href="https://github.com/skiser77/skiser77.github.io">Github</a>
+            ||
+            <a href="https://skiser77.github.io/itis3135/">Github.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/seank77">freeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/seank77">Codecademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/sean-kiser-212a50251/">LinkedIn</a>
+        </nav>
+        <p>Page Built by <a href="thekickingkang.com/">The Kicking Kang</a> &copy; 2023</p>
+        
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>         
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+</body>
+</html>

@@ -31,3 +31,34 @@ img{
 figure{
     text-align: center;
 }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+ol {
+    text-align:left;
+    line-height: 150%;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+tr:nth-child(even) { 
+    background-color: white; 
+} 
+
+tr:nth-child(odd) { 
+    background-color: gray; 
+} 
+
+.base{
+    background-color: gray;
+}
+
+.top{
+    background-color: black;
+}
