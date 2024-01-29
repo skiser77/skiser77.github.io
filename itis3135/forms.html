@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Kiser's Sensational Kangaroo || ITIS3135 Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <h1>Sean Kiser's Sensational Kangaroo || ITIS 3135</h1>
+        <nav>
+            <a href="./">Home</a>
+            ||
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">HTML Tables</a>
+            ||
+            <a href="forms.html">HTML Forms</a>
+        </nav>
+    </header>
+    <Main>
+        <h2>Kicking Kang Hiring Form</h2>
+        <form action="#" class="hiring">
+            <div>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for = name>
+                            Name: <input type = "text" placeholder="Enter your name" id = "name" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for = phone-number>
+                            Phone Number: <input type = "number" placeholder="Enter your phone number" id = "phone-number" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label for = email-address>
+                            Phone Number: <input type = "email" placeholder="Enter your email" id = "email-address" required>
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+            <fieldset>
+                <legend>Ethnicity</legend>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "white">White
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "hispanic">Hispanic
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "black">Black
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "asian">Asian
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "american indian or alsaska native">American Indian or Alaska Native
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "native hawaiian or other pacific islander">Native Hawaiian or Other Pacific Islander
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type = "checkbox" value = "prefer not to answer">Prefer not to answer
+                    </label>
+                </div>
+            </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Have you worked at Kicking Kang before?</legend>
+                    <div>
+                        <label>
+                            <input type="radio" name = "work" value = "yes" checked>Yes
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name = "work" value="no" >No
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>How many hours per week would you like to work?</legend>
+                    <div>
+                        <select>
+                            <option>
+                                -select an option-
+                            </option>
+                            <option value="10">
+                                10 Hours
+                            </option>
+                            <option value = "20">
+                                20 Hours
+                            </option>
+                            <option value = "30">
+                                30 Hours
+                            </option>
+                            <option value="40">
+                                40 Hours
+                            </option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+
+            <label for="submit">
+                <button type ="submit" id="submit" class="endbutton">Submit</button>
+            </label>
+            <label for="reset">
+                <button type="reset" id="reset" class="endbutton">Reset</button>
+            </label>
+        </form>
+    </Main>
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/skiser18/">Charlotte.edu</a>
+            ||
+            <a href="https://github.com/skiser77/skiser77.github.io">Github</a>
+            ||
+            <a href="https://skiser77.github.io/itis3135/">Github.io</a>
+            ||
+            <a href="https://www.freecodecamp.org/seank77">freeCodeCamp</a>
+            ||
+            <a href="https://www.codecademy.com/profiles/seank77">Codecademy</a>
+            ||
+            <a href="https://www.linkedin.com/in/sean-kiser-212a50251/">LinkedIn</a>
+        </nav>
+        <p>Page Built by <a href="thekickingkang.com/">The Kicking Kang</a> &copy; 2023</p>
+        
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>         
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+</body>
+</html>
