@@ -77,3 +77,8 @@ tr:nth-child(odd) {
     color: aliceblue;
     text-align: center;
 }
+
+.webevaluation{
+    margin-left: 20%;
+    margin-right: 20%;
+}
