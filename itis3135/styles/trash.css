@@ -1,0 +1,12 @@
+body {
+    margin-top: 90%;
+    margin-bottom: 15%;
+    margin-left: 50%;
+    margin-right: 5%;
+
+    border: solid black;
+    border-top: 20px;
+    border-right: 50px;
+    border-left: 75px;
+    border-bottom: 100px
+}
