@@ -3,34 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kicking Kang Design Page</title>
-    <style>
-        a{background-color: #EF233C;}
-        body{background-color: #F3CFC6; color: #54442B; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
-        .headers{color: #7D5BA6;}
-        a:hover{color: #8FC0A9;}
-        img{height: 60px; display: inline-block;}
-        h1{margin-left: 10px; display: inline-block;}
-        ul{background-color: #8FC0A9; border-radius: 10px; margin-right: 50%; list-style-type: square;}
-        .info{
-            text-align: center; 
-            font-style: italic;
-            background-color: #8FC0A9; 
-            border-radius: 10px;
-            margin-right: 30%;
-            margin-left: 30%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/default.css">
+    <title>The Sensational Kangaroo Design Page</title>
 </head>
 <body>
     <header>
-        <img  src="images/logo.png" alt ="Logo">
-        <h1 class="headers">The Kicking Kang</h1>
+        <div data-include="components/header.html"></div>
     </header>
     <main>
-        <h2>About Kicking Kang</h2>
+        <h1><span><img  src="images/logo.png" alt ="Logo" class="logo"></span>About The Sensational Kangaroo</h1>
+    
         <p>
-            We are Kicking Kang a hammock company based in Northern Aulstralia.
+            We are The Sensational Kangaroo, a hammock company based in Northern Aulstralia.
             Our hammocks are the most comfortable hammocks in the world. They 
             supposedly feel like you are inside of a kangaroos pouch. We even
             interviewed a joey to get a first hand account that it feels like the 
@@ -54,7 +38,7 @@
                 We provide an array of colors such as salmon pink or moonlight blue.
             </li>
             <li>
-                All of our kangaroos are from A ustralia.
+                All of our kangaroos are from Australia.
             </li>
         </ul>
         <p>
@@ -65,20 +49,16 @@
             most comfortable hammock that you will ever get to experience. 
         </p>
         <p class="info">
-            Email: kickingkang@gmail.com <br>
+            Email: thesensationalkangaroo@gmail.com <br>
             Phone Number: 0423-329-123 <br>
             Address: North Sydney, NSW, 1023 Australia
         </p>
     </main>
     <footer>
-        <p>Page Built by The Kicking Kang &copy;2024</p>
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-        </a>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-        </a>         
+        <p><i>The hammock that feels like a kanaroo's pouch!</i></p>
+        <div data-include="components/footer.html"></div>    
     </footer>
+    <script src="scripts/include.js"></script>
     <script>
         document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
         document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
