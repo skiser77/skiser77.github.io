@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Kiser's Sensational Kangaroo || ITIS3135 First Scripts</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/defaultscripts.js"></script>
+</head>
+<body onload="displayDate()">
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2 id = "title">First Scripts</h2>
+
+        <div id="input" class="functionGroup">
+            <p>What is your name?</p>
+            <input id = "name">
+            <p>How are you feeling today?</p>
+            <input id = "feeling">
+            <br>
+            <button type="button" onclick="welcomeMessage()">Submit</button>
+        </div>
+        <p id = "displayMessage"></p>
+
+        <div class="functionGroup">
+            <p>Enter a number 1-10:</p>
+            <input id = "polygon">
+            <br>
+            <button type ="button" onclick="polygon()">Submit</button>
+        </div>
+
+        <div class="functionGroup">
+            <p id = "fact">Click "Generate" to learn a random fact about The Sensational Kangaroo</p>
+            <button type ="button" onclick="fact()">Generate Fact</button>
+
+        </div>
+
+        <div class="functionGroup">
+            <p>Enter the number of hammocks that you were planning on purchasing</p>
+            <input id = "hammockNumber">
+            <br>
+            <button type="button" onclick="price()">Submit</button>
+            <p id = "displayPrice"></p>
+        </div>
+        
+        <button type="button" onclick="changeColor()">Change Background Color</button>
+
+
+        <button type="button" onclick="changeText()">Change Font</button>
+
+    </main>
+    <footer>
+        <div data-include="components/footer.html">Submit</div>
+    </footer>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
