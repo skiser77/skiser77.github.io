@@ -58,12 +58,14 @@ tr:nth-child(odd) {
 
 button{
     background-color: darkmagenta;
-    color: rgb(255, 6, 189);
+    color: black;
 }
 
 .base{
     background-color: gray;
 }
+
+
 
 .top{
     background-color: black;
@@ -101,6 +103,23 @@ button{
     margin-right: 30%;
     padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+.byo{
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 28%;
+}
+
+.byodiv{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.byo input{
+    width: 500px;
+    height: 20px;
 }
 
 

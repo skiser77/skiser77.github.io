@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Kiser's Sensational Kangaroo || ITIS3135 Home</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <Main>
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page, please fill out the form below so we cant create your own page.</h3>
+        <form class="byo" id ="form">
+            <p>Name:</p>
+            <input id = "name" name = "name" type = "text" value = "Sean Kiser" required>
+            <p>Mascot:</p>
+            <input id = "mascot" name = "mascot" type = "text" value = "Sensational Kangaroo" required>
+            <p>Image:</p>
+            <input type = "file" name = "image" id="image" required>
+            <br>
+            <br>
+            <p">Image Caption:</p>
+            <input type = "text" id="imagecaption" name="imagecaption" value="Sean Kiser with fish" required>
+            <br>
+            <p>Personal Background:</p>
+            <input type = "text" id="personalbackground" name="personalbackground" value= "I was born in Raleigh, North Carolina." required>
+            <p>Professional Background:</p>
+            <input type = "text" id="professionalbackground" name="professionalbackground" value = " I have worked at Shake Shack, a bowling alley, and as a referee." required>
+            <p>Academic Background:</p>
+            <input type = "text" id="academicbackground" name="academicbackground" value="I am currently a sophomore who’s pursuing a degree in Computer Science with a Cyber Security concentration." required>  
+            <p>Background in Web Development:</p>
+            <input type = "text" id="backgroundinwebdevelopment" name="backgroundinwebdevelopment" value = "I liked to play around on scratch as a kid." required>
+            <p>Primary Computer Platform:</p>
+            <input type = "text" id="primarycomputerplatform" name="primarycomputerplatform" value ="A Windows desktop and laptop." required>  
+            <p id = "appendHere">Courses currently taking:</p>
+
+            <button type="button" onclick="addCourse()">Add Course</button>
+            <p>Funny Thing?</p>
+            <input type = "text" id="funnything" name="funnything" value = "I can whistle with my hands.">
+            <p>Anything Else?</p>
+            <input type = "text" id="anythingelse" name="anythingelse" value="I like to play ultimate frisbee.">  
+            <br>
+            <br>
+
+            <label>I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.</label>
+            <input type="checkbox" id="agreement" checked required>     
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </Main>
+    <div id="page" class="byodiv"></div>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.js"></script>
+    <script src="scripts/byo.js"></script>
+</body>
+</html>
