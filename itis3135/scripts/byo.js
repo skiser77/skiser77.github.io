@@ -96,9 +96,9 @@ function addCourse(){
 
     let newCourse = `
     <p>Course Title:</p>
-    <input type = "text" class="course-title">
+    <input type = "text" class="course-title" required>
     <p>Course Description</p>
-    <input type = "text" class="course-description">
+    <input type = "text" class="course-description" required>
     <br>
     <button type="button" onclick="deleteCourse(this)">Delete Course</button>
     `;
