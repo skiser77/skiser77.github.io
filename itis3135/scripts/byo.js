@@ -66,7 +66,7 @@ function makeForm(event){
     <li><strong>Funny Thing: </strong>${funnyThing}</li>
     <li><strong>Anything Else: </strong>${anythingElse}</li>
     </ul>
-    <a href="byo_into.html">New Form</a>
+    <a href="byo_intro.html">New Form</a>
 
     <br>
     <br>
