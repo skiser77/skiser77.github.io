@@ -99,6 +99,7 @@ function addCourse(){
     <input type = "text" class="course-title">
     <p>Course Description</p>
     <input type = "text" class="course-description">
+    <br>
     <button type="button" onclick="deleteCourse(this)">Delete Course</button>
     `;
     
