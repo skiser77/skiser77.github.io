@@ -97,6 +97,11 @@ button{
     border-radius: 10px
 }
 
+.partone{
+    text-align: left;
+}
+
+
 .functionGroup{
     border: 2px solid darkmagenta;
     margin-left: 30%;
