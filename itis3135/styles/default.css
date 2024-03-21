@@ -53,7 +53,7 @@ tr:nth-child(even) {
 } 
 
 tr:nth-child(odd) { 
-    background-color: rgb(59, 157, 125); 
+    background-color: rgb(170, 255, 227); 
 } 
 
 button{
