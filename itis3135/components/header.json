@@ -1,0 +1,23 @@
+{
+    "nav1": [
+      { "text": "Home", "href": "./" },
+      { "text": "Introduction", "href": "introduction.html" },
+      { "text": "Contract", "href": "contract.html" },
+      { "text": "HTML Tables", "href": "tables.html" },
+      { "text": "HTML Forms", "href": "forms.html" },
+      { "text": "Website Evaluation", "href": "website_evaluations.html" },
+      { "text": "About", "href": "about.html" },
+      { "text": "First Scripts", "href": "firstscripts.html" },
+      { "text": "BYO Intro", "href": "byo_intro.html" },
+      { "text": "Calculator Try", "href": "calculator_try.html" },
+      { "text": "Calculator FCC", "href": "calculator_fcc.html" },
+      { "text": "Array", "href": "array.html" },
+      { "text": "Drawing", "href": "drawing.html" }
+    ],
+
+    "nav2": [
+      { "text": "Crappy Webpage", "href": "stuff/CrA_pP&y.htm" },
+      { "text": "Project One", "href": "project/partone.html" },
+      { "text": "Hobby", "href": "hobby/index.html" }
+    ]
+}

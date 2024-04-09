@@ -1,0 +1,67 @@
+{
+    "nav1": [
+      { "text": "Charlotte.edu", "href": "https://webpages.charlotte.edu/skiser18/" },
+      { "text": "Github", "href": "https://github.com/skiser77/skiser77.github.io" },
+      { "text": "Github.io", "href": "https://skiser77.github.io/itis3135/" },
+      { "text": "freeCodeCamp", "href": "https://www.freecodecamp.org/seank77" },
+      { "text": "Codecademy", "href": "https://www.codecademy.com/profiles/seank77" },
+      { "text": "LinkedIn", "href": "https://www.linkedin.com/in/sean-kiser-212a50251/" }
+    ],
+
+    "text": "Page Built by",
+    "companyText": "The Kiser Fix", 
+    "href": "https://thekiserfix.org/",
+    "copyright": "&copy;2024",
+    "links": [
+        { "text": "Certified in RWD", "href": "https://freecodecamp.org/certification/seank77/responsive-web-design" },
+        { "text": "Certified in JS", "href": "https://www.freecodecamp.org/certification/seank77/javascript-algorithms-and-data-structures-v8" }
+    ],
+
+    "buttonAttributes": [
+        {"attribute": "type",  "input": "button"},
+        {"attribute": "onclick", "input": "document.querySelectorAll('link[rel=stylesheet]').forEach(function(e) {e.setAttribute('href', '');});"}
+    ],
+    "buttontext": "No CSS",
+
+    "validationlinks": [
+        {
+          "href": "https://validator.w3.org/check?uri=referer",
+          "id": "validation_link_html",
+          "imgSrc": "https://mytienhoang.github.io/itis3135/z_archives/html_validation.png",
+          "altText": "Valid HTML!",
+          "style": "border:0;width:88px;height:31px"
+        },
+        {
+          "href": "https://jigsaw.w3.org/css-validator/check/referer",
+          "id": "validation_link_css",
+          "imgSrc": "https://jigsaw.w3.org/css-validator/images/vcss",
+          "altText": "Valid CSS!",
+          "style":"border:0;width:88px;height:31px"
+        },
+        {
+          "href": "https://wave.webaim.org/",
+          "id": "validation_link_wcag",
+          "imgSrc": "images/wcag.png",
+          "altText": "Valid WCAG!",
+          "style":"border:0;width:88px;height:31px"
+        }
+      ],
+
+      "validationscripts": [
+        {
+          "id": "validation_link_html",
+          "attribute": "href",
+          "value": "https://validator.w3.org/check?uri=" 
+        },
+        {
+          "id": "validation_link_css",
+          "attribute": "href",
+          "value": "https://jigsaw.w3.org/css-validator/validator?uri=" 
+        },
+        {
+          "id": "validation_link_wcag",
+          "attribute": "href",
+          "value": "https://wave.webaim.org/report#/"
+        }
+      ]
+}

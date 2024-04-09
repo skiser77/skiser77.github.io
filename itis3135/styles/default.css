@@ -3,7 +3,7 @@ body{
     text-align: center;
     color:darkmagenta;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a{
@@ -57,8 +57,13 @@ tr:nth-child(odd) {
 } 
 
 button{
-    background-color: darkmagenta;
+    background-color: rgb(170, 255, 227);
     color: black;
+}
+.login{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
 }
 
 .base{
