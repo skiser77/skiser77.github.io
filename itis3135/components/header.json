@@ -12,7 +12,8 @@
       { "text": "Calculator Try", "href": "calculator_try.html" },
       { "text": "Calculator FCC", "href": "calculator_fcc.html" },
       { "text": "Array", "href": "array.html" },
-      { "text": "Drawing", "href": "drawing.html" }
+      { "text": "Drawing", "href": "drawing.html" },
+      { "text": "Slideshow", "href": "slideshow.html"}
     ],
 
     "nav2": [

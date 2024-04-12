@@ -66,6 +66,64 @@ button{
     text-align: left;
 }
 
+
+
+
+.slideshow{
+    height: 25%;
+    width: 25%;
+}
+
+.bottomdiv{
+    display: inline-block;
+}
+
+.slide{
+    display: inline-block;
+}
+
+.next:hover{
+    cursor: pointer;
+}
+
+.prev:hover{
+    cursor: pointer;
+}
+
+.next{
+font-size: 30px;
+}
+
+.prev{
+    font-size: 30px;
+}
+
+.slideshowcontainer{
+    display: inline-block;
+}
+
+
+.slideshowbottom{
+    height: 8%;
+    width: 8%;
+    margin: 0;
+    padding: 0;
+}
+
+.slideshowbottom:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fraction{
+    color: white;
+    position:fixed;
+}
+
+.slideshowbottom:not(:hover){
+    transform: scale(1);
+}
+
 .base{
     background-color: gray;
 }
