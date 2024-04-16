@@ -18,7 +18,7 @@
 
     "nav2": [
       { "text": "Crappy Webpage", "href": "stuff/CrA_pP&y.htm" },
-      { "text": "Project One", "href": "project/partone.html" },
+      { "text": "Part One", "href": "project/partone.html" },
       { "text": "Hobby", "href": "hobby/index.html" }
     ]
 }
