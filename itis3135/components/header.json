@@ -3,22 +3,26 @@
       { "text": "Home", "href": "./" },
       { "text": "Introduction", "href": "introduction.html" },
       { "text": "Contract", "href": "contract.html" },
-      { "text": "HTML Tables", "href": "tables.html" },
-      { "text": "HTML Forms", "href": "forms.html" },
-      { "text": "Website Evaluation", "href": "website_evaluations.html" },
+      { "text": "Tables", "href": "tables.html" },
+      { "text": "Forms", "href": "forms.html" },
+      { "text": "Evaluation", "href": "website_evaluations.html" },
       { "text": "About", "href": "about.html" },
-      { "text": "First Scripts", "href": "firstscripts.html" },
-      { "text": "BYO Intro", "href": "byo_intro.html" },
-      { "text": "Calculator Try", "href": "calculator_try.html" },
-      { "text": "Calculator FCC", "href": "calculator_fcc.html" },
+      { "text": "Scripts", "href": "firstscripts.html" },
+      { "text": "BYO", "href": "byo_intro.html" },
+      { "text": "Calc Try", "href": "calculator_try.html" },
+      { "text": "Calc FCC", "href": "calculator_fcc.html" },
       { "text": "Array", "href": "array.html" },
       { "text": "Drawing", "href": "drawing.html" },
-      { "text": "Slideshow", "href": "slideshow.html"}
+      { "text": "Slideshow", "href": "slideshow.html"},
+      { "text": "Review 1", "href": "review1.html"},
+      { "text": "Review 2", "href": "review2.html"}
+
     ],
 
     "nav2": [
       { "text": "Crappy Webpage", "href": "stuff/CrA_pP&y.htm" },
-      { "text": "Part One", "href": "project/partone.html" },
-      { "text": "Hobby", "href": "hobby/index.html" }
+      { "text": "Project Planning", "href": "project/partone.html" },
+      { "text": "Hobby", "href": "hobby/index.html" },
+      {"text": "Client Project", "href": "project/index.html"}
     ]
 }
