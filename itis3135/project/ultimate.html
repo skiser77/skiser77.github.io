@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <h1>UNC Charlotte Skyrise</h1>
         <nav>
             <a href="index.html">Home</a>
             ||
@@ -44,6 +45,18 @@
             ||
             <a href="https://www.instagram.com/unccultimate">Skyrise Instagram</a>
         </nav>
+        <p>Website Created By <a href="../thekiserfix.org/index.html">The Kiser Fix</a></p>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a>
     </footer>
+    <script src="scripts\default.js"></script>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
 </body>
 </html>
