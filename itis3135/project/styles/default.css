@@ -1,19 +1,22 @@
 body{
-    background-color:#149911;
+    background-color:#046A38;
     text-align: left;
-    color: #353B3C;
+    color: #27251F;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    min-height: 100vh;
 }
 
 button{
-    background-color:  #29d126;
+    background-color:  #07b25f;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
 }
 
 a{
-    color:#FFD700;
+    color:#B9975B;
     text-decoration: none;
 }
 
@@ -43,6 +46,21 @@ form{
 
 footer{
     text-align: center;
+    background-color:#058d4b;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    margin-top: 20px;
+    position:sticky;
+    padding-bottom: 10px;
+}
+
+header{
+    background-color:#058d4b;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .roster{
