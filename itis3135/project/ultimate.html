@@ -52,11 +52,15 @@
         <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
             <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
         </a>
+        <a href="https://wave.webaim.org/" id="validation_link_wcag">
+            <img src="images/wcag.png" alt="Valid WCAG!" style="border:0;width:88px;height:31px">
+        </a>
     </footer>
     <script src="scripts\default.js"></script>
     <script>
-        document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+       document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
         document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        document.getElementById("validation_link_wcag").setAttribute("href","https://wave.webaim.org/report#/" + location.href);
     </script>
 </body>
 </html>
